@@ -214,6 +214,21 @@ body {
     line-height: 9vw;
     text-shadow: 0 0 3vw #2356FF;
   }
+
+.hack-{
+    font-family: neon;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Warnes', cursive;
+  color: #426DFB;
+  font-size: 2.5vw;
+  line-height: 2.5vw;
+  text-shadow: 0 0 0.7vw #2356FF;
+}
+@media(max-width:768px){
+    .hack-{
+        font-size: 1.5em;
+    }
+}
   
 
 @media(max-width:768px){
