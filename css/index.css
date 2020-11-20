@@ -539,6 +539,21 @@ h1 {
   animation: letter-flicker 2s linear infinite;
 }
 
+#offset-2 {
+  color: #ffcc00;
+animation: letter-flicker 1.57s linear infinite;
+}
+
+#offset-3 {
+  color: #ffcc00;
+animation: letter-flicker 2.34s linear infinite;
+}
+
+#offset-4 {
+  color: #ffcc00;
+animation: letter-flicker 3s linear infinite;
+}
+
 /* @keyframes text-flicker {
   0% {
     opacity:0.1;
