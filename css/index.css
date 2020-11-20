@@ -741,6 +741,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 }
 
 
+
 /* THIRD VP=============================================================================================== */
 .thvp{
     background: #246059;
@@ -808,7 +809,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   margin-top:-40px
   }
   
-  #progress-bar-container li:before {
+  /* #progress-bar-container li:before {
   content:" ";
   display:block;
   margin:auto;
@@ -819,7 +820,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   transition:all ease 0.3s;
      
   }
-  
+   */
   #progress-bar-container li.active:before, #progress-bar-container li:hover:before {
   border:solid 1px #146C80;
   box-shadow: 0px 0px 10px #146C80,
@@ -836,14 +837,15 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   float:left;
   width:50%;
   text-align:center;
-  color:#808080;
+  color:#e9e9e9;
   text-transform:uppercase;
-  font-size:11px;
+  font-size:1.7em;
   cursor:pointer;
   font-weight:700;
   transition:all ease 0.2s;
   vertical-align:bottom;
   height:60px;
+  font-family: 'Raleway', sans-serif;
   position:relative;
   }
   
@@ -858,7 +860,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   color:#fff;
   }
   
-  #progress-bar-container li:after {
+  /* #progress-bar-container li:after {
   content:" ";
   display:block;
   width:6px;
@@ -872,16 +874,16 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   transition:all ease 0.2s;
      
   }
-  
+   */
   #progress-bar-container li:hover:after {
   background:#555;
   }
-  
+/*   
   #progress-bar-container li.active:after {
   background:#977c00;
   }
-  
-  #progress-bar-container #line {
+   */
+  /* #progress-bar-container #line {
   width:80%;
   margin:auto;
   background: #000;
@@ -893,8 +895,8 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   border-radius:50px;
   transition:all ease 0.9s;
   }
-  
-  #progress-bar-container #line-progress {
+   */
+  /* #progress-bar-container #line-progress {
   content:" ";
   width:3%;
   height:100%;
@@ -910,9 +912,9 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   #progress-content-section {
   
   margin: auto;
-  /* background: #f3f3f3; */
+  
   border-radius: 4px;
-  }
+  } */
   
   #progress-content-section .section-content {
   
@@ -1160,7 +1162,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
     color: #fff;
 }
 
-/* ===================2nd button============================= */
+/* ========================2nd button============================= */
 
   #testbutton {
     width: 200px;
