@@ -1,0 +1,467 @@
+/*          contact us ============================================================ */
+/* =================================contact us 8th vp ============================ */
+.eigvp{
+    width: 100%;
+    min-height: 50vh;
+    height: fit-content !important;
+    padding-top: 30px;
+
+    padding-bottom: 20px;
+ 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: inset 0px 0px 10px #00000060; */
+ 
+ 
+  }
+
+  .logocont img{
+    width: 195px;
+    padding: 40px 0px 0px 70px;
+
+  }
+
+  .starttext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding-top: 10px;
+  }
+  /* ---------------------------------------------------------------------contact form vp---------------------------------- */
+ 
+ 
+  .contactbox{
+    width: 100%;
+    z-index: 20
+
+  }
+ 
+  @media (max-width:998px){
+    .contactbox{
+      width: 100%;
+      padding-top: 20px;
+    }
+  }
+  @media (max-width:600px){
+    .contactbox{
+      width: 100%;
+      padding-top: 20px;
+    }
+  }
+ 
+ 
+   
+    .contactvphp{
+      width: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+   
+    .contactvphp .wrapper{
+  height: fit-content;
+  padding-bottom: 300px;
+      width: 100%;
+      padding: 0 20px;
+    }
+ 
+    .single-footer li:hover a{
+        background-color: rgba(0, 141, 235, 0.192);
+       
+ 
+    }
+    .contact-form img{
+        width: 27%;
+        min-width: 50px;
+        max-width: 350px;
+    }
+   
+    .contactvphp .contact-form{
+      display: flex;
+      flex-direction: column;
+       justify-content: center;
+      align-items: center;      
+      width: 65%;
+      margin: 0 auto;
+      border-radius: 0px;
+  background: transparent;
+  background: rgba(22, 25, 43, 0.226);
+  z-index: 100 !important;
+  box-shadow: 10px 10px 15px #00000011,
+   -10px -10px 15px #ececec07;
+      padding: 30px;
+      border-radius: 5px;
+     
+     
+    }
+    .infocontact{
+     
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .buttoncontact{
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .dircall{
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      line-height: 60px;
+      border-right: 2px solid #516d7e;
+      margin: 30px;
+      font-family: 'Raleway', sans-serif;
+     
+    }
+ 
+    .dircall p a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .contactvphp .input-fields{
+      display: flex;
+      flex-direction: column;
+      margin-right: 4%;
+      font-family: 'Raleway', sans-serif;
+    }
+   
+    .contactvphp .input-fields,
+    .contactvphp .msg{
+      width:80%;
+    }
+  .contactvphp .input-fields p{
+   font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 18px;
+}  
+ .contactvphp .input-fields label{
+   font-family: 'Raleway', sans-serif;
+  color: #fdfdfd;
+  font-size: 14px;
+}
+.contactvphp .input-fields p{
+  margin-bottom:10px;
+}
+    .contactvphp .input-fields .input,
+    .contactvphp .msg textarea{
+      margin: 10px 0;
+      background: transparent;
+      border: 0px;
+      border-bottom: 2px solid  #ffffff;
+      padding: 10px;
+      color: rgb(228, 228, 228);
+      width: 100%;
+    }
+   
+    .contactvphp .msg textarea{
+      height: 212px;
+    }
+   
+    ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #fff;
+    }
+    ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #fff;
+    }
+    :-ms-input-placeholder {
+      /* IE 10+ */
+      color: #fff;
+    }
+   
+    .contactvphp .btn {
+      border-radius: 0px;
+      background: linear-gradient(225deg, #0b0b0b, #0e0e1f);
+      /* box-shadow:  -5px 5px 0px #040404,
+                   5px -5px 0px #101010; */
+        text-align: center;
+        padding: 15px;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: ease-in 0.2s;
+    }
+    .contactvphp .btn:hover{
+        transform: scale(0.9);
+    }
+   
+    @media (max-width: 870px){
+      form{
+        width: 90%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .contactbox{
+        padding-top: 0;
+      }
+      .contact-form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+       
+      }
+      .infocontact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .buttoncontact{
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+      }
+      .wrapper{
+          height: 100vh;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .msg textarea{
+        height: 80px;
+ 
+      }
+
+
+ 
+      .dircall{
+        width: 100%;
+        border-right: 0px solid transparent !important;
+        border-bottom: 2px dashed #536e80;
+      }
+     
+      .input-fields,.msg
+     {
+        width: 100% !important;
+        padding: 0px;
+        margin: 0px;
+        font-size: 10px;
+      }
+      .input-fields input
+      {
+         width: 80%;
+         padding: 0px;
+         margin: 0px;
+       }
+
+       input#Female, input#Male, input.genderpref, input.aian {
+         width: 12.8px;
+       }
+
+       .contactvphp .input-fields p{
+         font-size: 10.9px;
+       }
+       .contactvphp .input-fields label{
+         font-size: 10px;
+       }
+
+       .contactvphp .contact-form{
+         width: 100%;
+       }
+       #texthead h1{
+         padding-top: 10vh;
+         font-size: 25px !important;
+         
+       }
+       .logocont img{
+         padding-left: 30px;
+         padding-top: 30px;
+         width: 130px;
+       }
+
+    }
+ 
+    .wrapper form{
+     padding: 30px 0;
+    }
+
+
+/* ============================================================Judges================================================================= */
+.fovp{
+
+  display: flex;
+  justify-content: center !important;
+  text-align: center;
+  height: fit-content;
+ 
+}
+.fovp .typhead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+.fovp .jud{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
+  z-index: 20;
+}
+.fovp .row{
+
+
+  background-size: cover;
+  padding-bottom: 30px;
+
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.fovp .judcard{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: fit-content;
+  border-radius: 0px;
+  background: linear-gradient( 315deg, #1b2735 , #090a0f);
+  box-shadow:  0px 0px 30px #00000038;
+}
+@media(max-width:880px){
+  .fovp .judcard{
+    margin-bottom: 30px;
+  }
+}
+
+.fovp .judimg img{
+  width: 100%;
+  height: 230px;
+}
+.fovp .judtext{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fovp .judname{
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  background: -webkit-linear-gradient(0deg, #feac5e, #c779d0, #4bc0c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  padding-top: 5px;
+  text-align: center;
+}
+.fovp .juddesg{
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-right: 3px;
+  padding-left: 3px;
+  padding-top: 3px;
+  font-family: 'Space Mono', monospace;
+     
+    /* font-family: 'Rajdhani', sans-serif; */
+ 
+   
+
+}
+
+   
+/* ---------------------------------footer vp--------------------------- */
+.footer-wrapper{
+    background: #628497;
+      display: flex;
+     flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      margin: 0 auto;
+  }
+  .single-footer{
+      width: 25%;
+      float: center;
+      text-align: left;
+      list-style: none;
+  }
+  @media (max-width:991px){
+      .footer-wrapper{
+          flex-direction: column;
+          width: 100%;
+          align-items: flex-start;
+         
+      }
+  }
+ 
+  .single-footer ul a{
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #fff;
+      font-size: 12px;
+ 
+  }
+ 
+  .single-footer p{
+      width: 70%;
+  }
+  .socialimg{
+      width: 20px;
+      filter: invert(100%);
+  }
+ 
+  .single-footer h4{
+      color: rgba(0, 131, 207, 0.849);
+  }
+  .footlogo{
+      width: 8vw !important;
+  }
+  footer{
+      width: 100%;
+      min-height:80px;
+      position: relative;
+      bottom: 0;
+   
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .bottomline{
+  padding-top: 3px;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #fff;
+  }
+
+ 
+  
