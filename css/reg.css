@@ -118,7 +118,7 @@
       align-items: center;
       width: 100%;
     }
-    .dircall{
+ .dircall{
       display: flex;
       flex-direction: column;
       width: 25%;
@@ -126,7 +126,7 @@
       justify-content: center;
       color: #fff;
       line-height: 60px;
-      border-right: 2px solid #516d7e;
+       border-right: 2px solid transparent ; 
       margin: 30px;
       font-family: 'Raleway', sans-serif;
      
@@ -247,10 +247,11 @@
 
 
  
+  
       .dircall{
         width: 100%;
         border-right: 0px solid transparent !important;
-        border-bottom: 2px dashed #536e80;
+         border-bottom: 2px dashed transparent !important;
       }
      
       .input-fields,.msg
