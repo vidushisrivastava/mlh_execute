@@ -126,7 +126,7 @@
       justify-content: center;
       color: #fff;
       line-height: 60px;
-       border-right: 2px solid transparent !important ; 
+       border: 1px dashed #000 ; 
       margin: 30px;
       font-family: 'Raleway', sans-serif;
      
