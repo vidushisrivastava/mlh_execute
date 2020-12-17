@@ -160,7 +160,7 @@ const flightPath = {
       return false;
   
     }
-    if (!name.match(/^[a-zA-Z]{3,}$/)) {
+    if (!name.match(/^[a-zA-Z]{2,}$/)) {
       alert("Please enter your correct first name") ;//Validation Message
       return false;
     }
@@ -175,7 +175,7 @@ const flightPath = {
       return false;
   
     }
-    if (!name.match(/^[a-zA-Z]{3,}$/)) {
+    if (!name.match(/^[a-zA-Z]{1,}$/)) {
       alert("Please enter your correct last name") ;//Validation Message
       return false;
     }
